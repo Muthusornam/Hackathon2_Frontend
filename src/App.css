@@ -1,0 +1,53 @@
+#body{
+  position:relative;
+}
+#logo{
+  position: absolute;
+  top: -10px;
+  left:10px;
+ width: 120px;
+ height: 100px;
+ object-fit: contain;
+}
+
+#search-box{
+  position: absolute;
+  top:20px;
+  left:140px;
+    width:30%;
+    height:30px;
+ 
+}
+#go-btn{
+  position: absolute;
+  top: 20px;
+  left:620px;
+  height:35px;
+}
+#container{
+  position: absolute;
+  top: 100px;
+  display:grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 20px 10px;
+  width:100%;
+  overflow-x: hidden;
+  padding: 20px;;
+  
+}
+#video{
+  
+  min-height: 250px;
+    height: 500px ;
+    width: 100% ;
+    cursor: pointer;
+}
+img{
+  height:300px;
+  width:auto;
+  background-size: contain;
+}
+.content{
+  height:200px;
+  font-size:15px;
+}
